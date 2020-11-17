@@ -7,4 +7,4 @@ class isPangram:
         elif set(word.lower())< alfa:
             return "False"
         else:
-            raise Exception("Error in isPangram")
+            raise Exception("Error_in_isPangram")

@@ -24,7 +24,7 @@ class isPangramParameterizedFile(unittest.TestCase):
             else:
                 data = line.split(" ")
                 inp, result = (data[0]), data[1].strip("\n")
-                self.assertRaisesRegex(Exception, result, tmpIsPangram.game, int(inp))
+                self.assertRaisesRegex(Exception, result, tmpIsPangram.game, inp)
         fileTest2.close()
 
 
